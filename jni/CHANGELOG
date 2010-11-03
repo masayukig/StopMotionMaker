@@ -1,0 +1,33 @@
+18/03/03
+
+1. (BUG*) reported size in -fsz mode was 8 bytes too small
+2. (NEW) added -f switch for specifying the frame rate in fps
+3. (BUG*) some DWORDs weren't being converted to little-endian
+4. (NEW) added --version switch
+5. *** VERSION 1.2 frozen ***
+
+
+07/05/03
+
+1. (BUG*) some C++-style comments in code
+2. (BUG*) problem in byteswap.h for big-endian machines
+3. (NEW) added FSF-recommended disclaimers
+4. *** VERSION 1.3 frozen ***
+
+
+13/10/03
+
+1. (NEW) frame lists may be passed via STDIN; this corrects
+   the previous problem--technically a kernel issue--of stack
+   overflows due to really big frame lists
+2. (CHANGE) made spacing a bit more K&Rish; really to give more
+   consistency to the "wc -l" accounting of my projects
+3. *** VERSION 1.4 frozen ***
+
+
+07/01/04
+
+1. (BUG*) frame lists on command line not working because
+   linked-list doesn't get properly initialized
+2. *** VERSION 1.5 frozen ***
+
